@@ -1,4 +1,4 @@
-import { Route, Routes, Router } from "react-router"
+import { Route, Routes } from "react-router"
 import { Signup } from "./components/Signup.tsx"
 import {Login} from "./components/Login.tsx"
 import {Layout }from "./pages/Layout.tsx"

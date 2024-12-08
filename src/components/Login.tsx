@@ -1,6 +1,6 @@
 
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import Trans2 from '../trans2.jpg'; 
+import Trans2 from '../asset/trans2.jpg'; 
 import { useNavigate } from 'react-router';
 import { validate_login_values } from '../lib/validate';
 import { LoginValues } from '../lib/interface';

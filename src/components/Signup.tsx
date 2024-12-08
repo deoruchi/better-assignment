@@ -2,7 +2,7 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import { useNavigate } from 'react-router'; 
 import { SignValues } from '../lib/interface';
 import { validate_sigin_values } from '../lib/validate';
-import Trans from '../trans.jpg';
+import Trans from '../asset/trans.jpg';
 import { useEffect } from 'react';
 import { checkUserRecord, enterUserDetail, updateUserLogin } from '../lib/manipulate_data';
 import { useAuth } from '../context/login-context';
